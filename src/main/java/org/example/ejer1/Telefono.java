@@ -1,4 +1,4 @@
-package org.example.proxy2;
+package org.example.ejer1;
 
 public class Telefono {
     private String numero;

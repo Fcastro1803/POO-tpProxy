@@ -1,8 +1,6 @@
-package org.example.proxy3;
+package org.example.ejer2;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 public class FileAccessReal implements FileAccess {
     private String ruta;

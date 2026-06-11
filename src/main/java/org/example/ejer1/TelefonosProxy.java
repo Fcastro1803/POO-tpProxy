@@ -1,4 +1,4 @@
-package org.example.proxy2;
+package org.example.ejer1;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -18,7 +18,7 @@ public class TelefonosProxy extends HashSet<Telefono> {
 
     // Metodo privado que se ejecuta cunado se lo requiere
     private void cargarTelefonosSiEsNecesario() {
-        System.out.println("[PROXY] Carga de teléfonos para ID: " + idPersona);
+        System.out.println("PROXY - Carga de teléfonos para ID: " + idPersona);
         String sql = "select numero from telefonos where idPersona = ?";
 
         // Le pedimos la conexión al DAO, pero sólo para esta consulta específica

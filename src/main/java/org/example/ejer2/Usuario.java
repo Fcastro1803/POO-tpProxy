@@ -1,4 +1,4 @@
-package org.example.proxy3;
+package org.example.ejer2;
 
 import java.util.List;
 
